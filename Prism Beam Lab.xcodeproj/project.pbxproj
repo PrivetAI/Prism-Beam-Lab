@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0540B5FF7C3AA02B04EB5842 /* ChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E71EFFCB43D91F7A257981A /* ChaptersView.swift */; };
+		0C6830A7F821D4AF831DA284 /* LabIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2230E50B5C57F73A36F2DA /* LabIcons.swift */; };
+		100D0EC9228E8FEEEB506A3B /* CodexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F559E5BBDEF09F2C1C971C /* CodexView.swift */; };
+		1458C4D02E642639C14F5B9E /* SandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5ADAB0D1B05A05C476495 /* SandboxView.swift */; };
+		192147EE3FD9862690FED9A2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13E13FDFBCD56EE21D92C12 /* SettingsView.swift */; };
+		1A845C35B74C874D9BBA71F5 /* BenchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C639901EC5A01E303DF95FCA /* BenchSession.swift */; };
+		39F170515741A163FB7792A6 /* OpticsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7985F72ACD9DF9DE354C7B3 /* OpticsEngine.swift */; };
+		51F21A5C71414B3C9C028A72 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE75E853AD9449DED962F3C7 /* RootView.swift */; };
+		562D453DD5870AF597090D6F /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D353299FC7CCB1797A9541D /* MoreView.swift */; };
+		67F906DC717F4C883E65D066 /* PrismLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B56EE3ED2A975881C95724 /* PrismLoadingScreen.swift */; };
+		778135EFAE47DC198D3094CE /* LevelRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEC98E957C15A5D00498C8 /* LevelRecipes.swift */; };
+		9049C9BEDB906F84E33DCFF4 /* PrismProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FBE6F6DC12F8AACC76138 /* PrismProgress.swift */; };
+		99D9AD1D2AECE3CCD85CEBC4 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A6561E3DA98D7FAF0AEF2 /* Palette.swift */; };
+		9EE1A948D6185A1C8F6D3292 /* LabStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76ED6C26BA2887B53D5591 /* LabStore.swift */; };
+		A3A2D092A9C12D402DB34EB5 /* BenchBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A7C8CDE79E181E9A33A8A2 /* BenchBoard.swift */; };
+		A82B5D705BCEC36330D5D075 /* LevelLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0747AE22A50D1A035E9D2D58 /* LevelLibrary.swift */; };
+		B7F035BBE0CCE63BE3A1CAFC /* LevelBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF88B8713079CF961FE5C1AB /* LevelBuilder.swift */; };
+		CB2CB8CFEC2739626E5C7382 /* PrismWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192E9D2B256AE9B5F510C674 /* PrismWebPanel.swift */; };
+		DC0BCF3FB03C06BC714AEC72 /* BenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5584B54DB5FA11FFBDF61 /* BenchView.swift */; };
+		DCC2FE5FBE0D70FB58C31349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F2CC6D7A6D065A9DA0C1FF /* Assets.xcassets */; };
+		ECEB16C97CB5ED96B6B04BC5 /* ProgressDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CD0269FD99450C71A1AA7 /* ProgressDashboardView.swift */; };
+		F8A5B851D98EF0A36EA5F38D /* PrismBeamLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6075F44247ACCA4AD3CC1491 /* PrismBeamLabApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0747AE22A50D1A035E9D2D58 /* LevelLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelLibrary.swift; sourceTree = "<group>"; };
+		0AE5584B54DB5FA11FFBDF61 /* BenchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchView.swift; sourceTree = "<group>"; };
+		0F32E9607263C2063ABF6704 /* Prism Beam Lab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Prism Beam Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1374998F7E2A10B0BB131840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		192E9D2B256AE9B5F510C674 /* PrismWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismWebPanel.swift; sourceTree = "<group>"; };
+		19AEC98E957C15A5D00498C8 /* LevelRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelRecipes.swift; sourceTree = "<group>"; };
+		244FBE6F6DC12F8AACC76138 /* PrismProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismProgress.swift; sourceTree = "<group>"; };
+		32B56EE3ED2A975881C95724 /* PrismLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismLoadingScreen.swift; sourceTree = "<group>"; };
+		3D353299FC7CCB1797A9541D /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		495CD0269FD99450C71A1AA7 /* ProgressDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDashboardView.swift; sourceTree = "<group>"; };
+		53F559E5BBDEF09F2C1C971C /* CodexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexView.swift; sourceTree = "<group>"; };
+		5AF5ADAB0D1B05A05C476495 /* SandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxView.swift; sourceTree = "<group>"; };
+		5D4A6561E3DA98D7FAF0AEF2 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		6075F44247ACCA4AD3CC1491 /* PrismBeamLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismBeamLabApp.swift; sourceTree = "<group>"; };
+		6E71EFFCB43D91F7A257981A /* ChaptersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersView.swift; sourceTree = "<group>"; };
+		86F2CC6D7A6D065A9DA0C1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90A7C8CDE79E181E9A33A8A2 /* BenchBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchBoard.swift; sourceTree = "<group>"; };
+		A13E13FDFBCD56EE21D92C12 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AB76ED6C26BA2887B53D5591 /* LabStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabStore.swift; sourceTree = "<group>"; };
+		AF88B8713079CF961FE5C1AB /* LevelBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBuilder.swift; sourceTree = "<group>"; };
+		C639901EC5A01E303DF95FCA /* BenchSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchSession.swift; sourceTree = "<group>"; };
+		C7985F72ACD9DF9DE354C7B3 /* OpticsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpticsEngine.swift; sourceTree = "<group>"; };
+		EE2230E50B5C57F73A36F2DA /* LabIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabIcons.swift; sourceTree = "<group>"; };
+		FE75E853AD9449DED962F3C7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3A40D2F8C3A5862A5F8E91AC /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				AF88B8713079CF961FE5C1AB /* LevelBuilder.swift */,
+				0747AE22A50D1A035E9D2D58 /* LevelLibrary.swift */,
+				19AEC98E957C15A5D00498C8 /* LevelRecipes.swift */,
+				C7985F72ACD9DF9DE354C7B3 /* OpticsEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		4B83C2002B9D65C99BA93DAE = {
+			isa = PBXGroup;
+			children = (
+				DF60B85ADCCDCFD86A73708D /* PrismBeamLab */,
+				A84DEA70A593DC8429C20152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8478893D3C8A97954A2E4DF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90A7C8CDE79E181E9A33A8A2 /* BenchBoard.swift */,
+				0AE5584B54DB5FA11FFBDF61 /* BenchView.swift */,
+				6E71EFFCB43D91F7A257981A /* ChaptersView.swift */,
+				53F559E5BBDEF09F2C1C971C /* CodexView.swift */,
+				EE2230E50B5C57F73A36F2DA /* LabIcons.swift */,
+				3D353299FC7CCB1797A9541D /* MoreView.swift */,
+				5D4A6561E3DA98D7FAF0AEF2 /* Palette.swift */,
+				495CD0269FD99450C71A1AA7 /* ProgressDashboardView.swift */,
+				FE75E853AD9449DED962F3C7 /* RootView.swift */,
+				5AF5ADAB0D1B05A05C476495 /* SandboxView.swift */,
+				A13E13FDFBCD56EE21D92C12 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A84DEA70A593DC8429C20152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F32E9607263C2063ABF6704 /* Prism Beam Lab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4C4653B73D00A7EAB1807C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C639901EC5A01E303DF95FCA /* BenchSession.swift */,
+				AB76ED6C26BA2887B53D5591 /* LabStore.swift */,
+				244FBE6F6DC12F8AACC76138 /* PrismProgress.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF60B85ADCCDCFD86A73708D /* PrismBeamLab */ = {
+			isa = PBXGroup;
+			children = (
+				86F2CC6D7A6D065A9DA0C1FF /* Assets.xcassets */,
+				1374998F7E2A10B0BB131840 /* Info.plist */,
+				6075F44247ACCA4AD3CC1491 /* PrismBeamLabApp.swift */,
+				32B56EE3ED2A975881C95724 /* PrismLoadingScreen.swift */,
+				192E9D2B256AE9B5F510C674 /* PrismWebPanel.swift */,
+				3A40D2F8C3A5862A5F8E91AC /* Engine */,
+				C4C4653B73D00A7EAB1807C9 /* Model */,
+				8478893D3C8A97954A2E4DF4 /* Views */,
+			);
+			path = PrismBeamLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FD04841E61EC474DB023211 /* Prism Beam Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EAD81424729D223CCF25B53 /* Build configuration list for PBXNativeTarget "Prism Beam Lab" */;
+			buildPhases = (
+				3BD2FE2166B07FA3EB877414 /* Sources */,
+				A12980A5747E53D5A933C6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prism Beam Lab";
+			packageProductDependencies = (
+			);
+			productName = "Prism Beam Lab";
+			productReference = 0F32E9607263C2063ABF6704 /* Prism Beam Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F3A2785DACB6C852E4C3B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4FD04841E61EC474DB023211 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 385E99C9074B5577BDBEEAE8 /* Build configuration list for PBXProject "Prism Beam Lab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 4B83C2002B9D65C99BA93DAE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A84DEA70A593DC8429C20152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD04841E61EC474DB023211 /* Prism Beam Lab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12980A5747E53D5A933C6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC2FE5FBE0D70FB58C31349 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD2FE2166B07FA3EB877414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A2D092A9C12D402DB34EB5 /* BenchBoard.swift in Sources */,
+				1A845C35B74C874D9BBA71F5 /* BenchSession.swift in Sources */,
+				DC0BCF3FB03C06BC714AEC72 /* BenchView.swift in Sources */,
+				0540B5FF7C3AA02B04EB5842 /* ChaptersView.swift in Sources */,
+				100D0EC9228E8FEEEB506A3B /* CodexView.swift in Sources */,
+				0C6830A7F821D4AF831DA284 /* LabIcons.swift in Sources */,
+				9EE1A948D6185A1C8F6D3292 /* LabStore.swift in Sources */,
+				B7F035BBE0CCE63BE3A1CAFC /* LevelBuilder.swift in Sources */,
+				A82B5D705BCEC36330D5D075 /* LevelLibrary.swift in Sources */,
+				778135EFAE47DC198D3094CE /* LevelRecipes.swift in Sources */,
+				562D453DD5870AF597090D6F /* MoreView.swift in Sources */,
+				39F170515741A163FB7792A6 /* OpticsEngine.swift in Sources */,
+				99D9AD1D2AECE3CCD85CEBC4 /* Palette.swift in Sources */,
+				F8A5B851D98EF0A36EA5F38D /* PrismBeamLabApp.swift in Sources */,
+				67F906DC717F4C883E65D066 /* PrismLoadingScreen.swift in Sources */,
+				9049C9BEDB906F84E33DCFF4 /* PrismProgress.swift in Sources */,
+				CB2CB8CFEC2739626E5C7382 /* PrismWebPanel.swift in Sources */,
+				ECEB16C97CB5ED96B6B04BC5 /* ProgressDashboardView.swift in Sources */,
+				51F21A5C71414B3C9C028A72 /* RootView.swift in Sources */,
+				1458C4D02E642639C14F5B9E /* SandboxView.swift in Sources */,
+				192147EE3FD9862690FED9A2 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		96F0DF9266CE63271705BD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B785767720F2311728B2E24B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PrismBeamLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismbeamlab.app;
+				PRODUCT_NAME = "Prism Beam Lab";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C017BD9C82966AC9CE6530A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PrismBeamLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prismbeamlab.app;
+				PRODUCT_NAME = "Prism Beam Lab";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D286F359FCB8CA5C826CC279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EAD81424729D223CCF25B53 /* Build configuration list for PBXNativeTarget "Prism Beam Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B785767720F2311728B2E24B /* Debug */,
+				C017BD9C82966AC9CE6530A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		385E99C9074B5577BDBEEAE8 /* Build configuration list for PBXProject "Prism Beam Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F0DF9266CE63271705BD1F /* Debug */,
+				D286F359FCB8CA5C826CC279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F3A2785DACB6C852E4C3B8 /* Project object */;
+}
